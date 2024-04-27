@@ -18,14 +18,14 @@ const Header = () => {
         <Menu.Item key="r">
         <Link to="/AboutUs">درباره ما</Link>
       </Menu.Item>
+      <Menu.Item key="z" >
+        <Link to="/Contact">تماس با ما</Link>
+      </Menu.Item>
       <Menu.Item key="x">
         <Link to="/Services">خدمات</Link>
       </Menu.Item>
-      <Menu.Item key="x">
+      <Menu.Item key="k" style={{ marginRight: 'auto' }}>
         <Link to="/Resume">رزومه</Link>
-      </Menu.Item>
-      <Menu.Item key="z" style={{ marginRight: 'auto' }}>
-        <Link to="/Contact">تماس با ما</Link>
       </Menu.Item>
       <Menu.Item key="h" icon= {<HomeTwoTone />}>
        <Link to="/">صفحه اصلی</Link>
