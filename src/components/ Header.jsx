@@ -8,13 +8,12 @@ const Header = () => {
   const [current, setCurrent] = useState('h');
 
   const onClick = (e) => {
-    console.log('click ', e);
     setCurrent(e.key);
   };
   
   return (
     <>
-     <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal">
+     <Menu className="fs-2" onClick={onClick} selectedKeys={[current]} mode="horizontal">
         <Menu.Item key="r">
         <Link to="/AboutUs">درباره ما</Link>
       </Menu.Item>

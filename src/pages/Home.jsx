@@ -6,7 +6,8 @@ import fermenter from '../assets/fermenter.jpg'
 import bioractor from '../assets/bioractor.jpg'
 import steelTank from '../assets/steelTank.jpg'
 import magenitcMixer from '../assets/magneticMixer.jpg'
-import {SafetyCertificateFilled, StarFilled, FundFilled, FlagFilled} from '@ant-design/icons'
+import steelaLogo from '../assets/steela-logo.jpg'
+import {SafetyCertificateFilled, StarFilled, FundFilled, FlagFilled, PhoneFilled, EnvironmentFilled, CaretLeftOutlined, MailFilled} from '@ant-design/icons'
 import Card from '../components/Card'
 import products from '../assets/products.json'
 
@@ -56,7 +57,7 @@ export default function Home() {
       </section>
       <section>
         <div className="container-md" dir="rtl">
-          <h2 className='text-center my-5 fs-2 fw-semibold'>محصولات استیلا صنعت</h2>
+          <h1 className='text-center my-5'>محصولات استیلا صنعت</h1>
           <div className="row row-gap-5 colum-gap-3">
               <Card
               title={products[0].name}
@@ -91,6 +92,33 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <footer className='my-5'>
+        <div className="container-fluid row justify-content-evenly" dir="rtl"> 
+          <div className='col-3'>
+            <img src={steelaLogo} alt="لوگوی شرکت استلا صنعت" style={{height: 200}}/>
+            <p>متخصصان شرکت استیلا صنعت با اخذ مدارک بین المللی در زمینه حوزه فعالیت خود، کیفیت محصولات و ارائه خدمات شرکت استیلا صنعت را تضمین می‌نمایند</p>
+          </div>
+          <div className="col-3">
+            <h4 className='my-4'>{<CaretLeftOutlined />}پل ارتباطی با ما</h4>
+            <div className='d-flex flex-row column-gap-2'>
+                <span className='align-self-center'>{<PhoneFilled/>}</span>
+                <div className='lh-1'>
+                  <p>09120904694</p>
+                  <p>09129104492</p>
+                  <p>09127683859</p>
+                </div>
+            </div>
+            <div className='d-flex flex-row column-gap-2'>
+              <span>{<MailFilled />}</span>
+              <p>steelasanatjam@gmail.com</p>
+            </div>
+            <div className='d-flex flex-row column-gap-2'>
+              <span>{<EnvironmentFilled />}</span>
+              <p>البرز، شهرک صنعتی نظرآباد، حسین آباد، کوچه گل مریم، پلاک ۱۰</p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   )
 }
