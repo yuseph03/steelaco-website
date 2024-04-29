@@ -1,4 +1,3 @@
-import { lazy } from 'react';
 import Footer from '../components/Footer'
 import resume1 from '../assets/resume/resume1.jpg'
 import resume2 from '../assets/resume/resume2.jpg'
