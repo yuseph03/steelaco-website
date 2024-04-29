@@ -13,7 +13,7 @@ const Header = () => {
   
   return (
     <>
-     <Menu className="fs-2" onClick={onClick} selectedKeys={[current]} mode="horizontal">
+     <Menu onClick={onClick} className="fs-3" selectedKeys={[current]} mode="horizontal">
         <Menu.Item key="r">
         <Link to="/AboutUs">درباره ما</Link>
       </Menu.Item>

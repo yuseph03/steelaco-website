@@ -14,24 +14,26 @@ import products from '../assets/products.json'
 export default function Home() {
   return (
     <>
-      <section 
-      className="container-fluid text-center p-10"
-      style={{
-        backgroundImage: `url(${homeBackground})`,
-      }} 
-      >
-        <div className="row justify-content-center">
-          <img
-          src={mixingTank}
-          className="col-3 img-thumbnail m-4"
-          alt="مخزن"
-          />
-          <div className='col-3 m-4 text-white fs-4'>
-            <h2 dir="rtl">استیلا صنعت جام البرز</h2>
-            <p dir="rtl">شرکت استیلا صنعت بر اساس نیاز کشور به دانش فنی طراحی و ساخت تجهیزات و همچنین نصب و نگهداری سیستم‌های فرایندی در زمینه تولید دارو توسط تعدادی از متخصصین با تجربه در این حوزه تاسیس شده است.</p>
+        <section
+        style={{
+          backgroundImage: `url(${homeBackground})`,
+        }} 
+        >
+          <div className="row justify-content-center p-3 text-center">
+            <img
+            src={mixingTank}
+            className="col-6 img-thumbnail"
+            alt="مخزن"
+            style={{
+              maxWidth: "500px",
+            }} 
+            />
+            <div className='col-7 text-white fs-4'>
+              <h2>استیلا صنعت جام البرز</h2>
+              <p>شرکت استیلا صنعت بر اساس نیاز کشور به دانش فنی طراحی و ساخت تجهیزات و همچنین نصب و نگهداری سیستم‌های فرایندی در زمینه تولید دارو توسط تعدادی از متخصصین با تجربه در این حوزه تاسیس شده است.</p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
       <section
       className='container my-5 text-center'
       dir="rtl"
@@ -55,8 +57,8 @@ export default function Home() {
           </div>
        </div>
       </section>
-      <section>
-        <div className="container-md" dir="rtl">
+      <section className='bg-dark p-5'>
+        <div className="container-md text-white" dir="rtl">
           <h1 className='text-center my-5'>محصولات استیلا صنعت</h1>
           <div className="row row-gap-5 colum-gap-3">
               <Card

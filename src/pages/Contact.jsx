@@ -6,24 +6,24 @@ export default function Contact() {
     return (
       <>
         <section 
-        className="row my-5 justify-content-center" 
+        className="row my-5 p-5 fs-5 justify-content-center" 
         dir='rtl'
         style={{
           backgroundImage: `url(${homeBackground})`,
         }} 
         >
           <iframe 
-          className="col-4"
+          className="col"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d807.6740186273913!2d50.614417428432105!3d35.929938584214526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8d01002d35b255%3A0x3ae9e1779aa5862a!2z2LTYsdqp2Kog2KfYs9iq24zZhNinINi12YbYudiqINis2KfZhSDYp9mE2KjYsdiy!5e0!3m2!1sen!2scl!4v1714384953950!5m2!1sen!2scl" 
           width="600" 
           height="450" 
           allowfullscreen="" 
           loading="lazy">
           </iframe>
-          <div className='col-3'>
+          <div className='col'>
               <h2 className='my-4 text-white'>{<CaretLeftOutlined />}راه های تماس</h2>
               <div 
-              className='d-flex flex-row column-gap-2 p-2 m-3 rounded'
+              className='d-flex flex-row column-gap-2 justify-content-center p-2 m-3 rounded'
               style={{
                 backgroundColor: 'white',
               }} 
@@ -34,7 +34,7 @@ export default function Contact() {
                   </div>
               </div>
               <div 
-              className='d-flex flex-row column-gap-2 p-2 m-3 rounded'
+              className='d-flex flex-row column-gap-2 justify-content-center p-2 m-3 rounded'
               style={{
                 backgroundColor: 'white',
               }} 
@@ -43,7 +43,7 @@ export default function Contact() {
                 <p>steelasanatjam@gmail.com</p>
               </div>
               <div 
-              className='d-flex flex-row column-gap-2 p-3 m-3 rounded'
+              className='d-flex flex-row column-gap-2 justify-content-center p-3 m-3 rounded'
               style={{
                 backgroundColor: 'white',
               }} 
