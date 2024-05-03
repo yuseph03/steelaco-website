@@ -29,8 +29,9 @@ export default function Contact() {
               }} 
               >
                   <span>{<PhoneFilled/>}</span>
-                  <div>
-                    <p>09127683859-09129104492-09120904694 </p>
+                  <div className='d-flex flex-row justify-content-center'>
+                    <p>09120904694-09129104492-09127683859</p>
+                    <p>02645253897</p>
                   </div>
               </div>
               <div 

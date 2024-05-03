@@ -6,6 +6,9 @@ import fermenter from '../assets/fermenter.jpg'
 import bioractor from '../assets/bioractor.jpg'
 import steelTank from '../assets/steelTank.jpg'
 import magenitcMixer from '../assets/magneticMixer.jpg'
+import carbonPiping from '../assets/carbon-piping.png'
+import cleanRoom from '../assets/clean-room.jpeg'
+import steelPolish from '../assets/steel-tank-polish.jpg'
 import Footer from '../components/Footer'
 import {SafetyCertificateFilled, StarFilled, FundFilled, FlagFilled} from '@ant-design/icons'
 import Card from '../components/Card'
@@ -90,6 +93,21 @@ export default function Home() {
               title={products[5].name}
               description={products[5].description}
               image={magenitcMixer}
+              />
+               <Card
+              title={products[6].name}
+              description={products[6].description}
+              image={carbonPiping}
+              />
+               <Card
+              title={products[7].name}
+              description={products[7].description}
+              image={cleanRoom}
+              />
+               <Card
+              title={products[8].name}
+              description={products[8].description}
+              image={steelPolish}
               />
           </div>
         </div>

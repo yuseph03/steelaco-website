@@ -20,6 +20,7 @@ export default function Footer() {
                   <p>09120904694</p>
                   <p>09129104492</p>
                   <p>09127683859</p>
+                  <p>02645253897</p>
                 </div>
             </div>
             <div className='d-flex flex-row column-gap-2'>

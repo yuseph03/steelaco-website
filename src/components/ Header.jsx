@@ -20,9 +20,6 @@ const Header = () => {
       <Menu.Item key="z" >
         <Link to="/Contact">تماس با ما</Link>
       </Menu.Item>
-      <Menu.Item key="x">
-        <Link to="/Services">خدمات</Link>
-      </Menu.Item>
       <Menu.Item key="k" style={{ marginRight: 'auto' }}>
         <Link to="/Resume">رزومه</Link>
       </Menu.Item>
