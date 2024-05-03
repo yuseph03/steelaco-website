@@ -1,5 +1,5 @@
 import homeBackground from '../assets/home-background.jpg'
-import mixingTank from '../assets/home-mixing-tank.jpg'
+import cleanRoom1 from '../assets/clean-room-carousel/clean-room1.jpg'
 import passBox from '../assets/passBox.jpg'
 import piping from '../assets/piping.jpg'
 import fermenter from '../assets/fermenter.jpg'
@@ -7,11 +7,11 @@ import bioractor from '../assets/bioractor.jpg'
 import steelTank from '../assets/steelTank.jpg'
 import magenitcMixer from '../assets/magneticMixer.jpg'
 import carbonPiping from '../assets/carbon-piping.png'
-import cleanRoom from '../assets/clean-room.jpeg'
 import steelPolish from '../assets/steel-tank-polish.jpg'
 import Footer from '../components/Footer'
 import {SafetyCertificateFilled, StarFilled, FundFilled, FlagFilled} from '@ant-design/icons'
 import Card from '../components/Card'
+import CleanRoom from '../components/CleanRoom'
 import products from '../assets/products.json'
 
 export default function Home() {
@@ -23,14 +23,7 @@ export default function Home() {
         }} 
         >
           <div className="row justify-content-center p-3 text-center">
-            <img
-            src={mixingTank}
-            className="col-6 img-thumbnail"
-            alt="مخزن"
-            style={{
-              maxWidth: "500px",
-            }} 
-            />
+            <CleanRoom className="col-6"/>
             <div className='col-7 text-white fs-4'>
               <h2>استیلا صنعت جام البرز</h2>
               <p>شرکت استیلا صنعت بر اساس نیاز کشور به دانش فنی طراحی و ساخت تجهیزات و همچنین نصب و نگهداری سیستم‌های فرایندی در زمینه تولید دارو توسط تعدادی از متخصصین با تجربه در این حوزه تاسیس شده است.</p>
@@ -94,17 +87,17 @@ export default function Home() {
               description={products[5].description}
               image={magenitcMixer}
               />
-               <Card
+              <Card
               title={products[6].name}
               description={products[6].description}
               image={carbonPiping}
               />
-               <Card
+              <Card
               title={products[7].name}
               description={products[7].description}
-              image={cleanRoom}
+              image={cleanRoom1}
               />
-               <Card
+              <Card
               title={products[8].name}
               description={products[8].description}
               image={steelPolish}

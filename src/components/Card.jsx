@@ -8,7 +8,6 @@ export default function Card({title, description, image}) {
               <div className="card-body">
                 <h5 className="card-title">{title}</h5>
                 <p className="card-text">{description}</p>
-                <a href="#" className="btn btn-dark">توضیحات</a>
               </div>
             </div>
           </div>
