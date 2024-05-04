@@ -28,10 +28,11 @@ export default function Contact() {
                 backgroundColor: 'white',
               }} 
               >
-                  <span>{<PhoneFilled/>}</span>
-                  <div className='d-flex flex-row justify-content-center'>
-                    <p>09120904694-09129104492-09127683859</p>
-                    <p>02645253897</p>
+                  <div>
+                    <p><span>{<PhoneFilled/>}</span>09120904694</p>
+                    <p><span>{<PhoneFilled/>}</span>09129104492</p>  
+                    <p><span>{<PhoneFilled/>}</span>09127683859</p>
+                    <p><span>{<PhoneFilled/>}</span>02645253897</p>
                   </div>
               </div>
               <div 
